@@ -5,6 +5,7 @@
 # API documentation: https://exchange.xforce.ibmcloud.com/settings/api
 # Before you use the script:	export XFE_API_KEY='<your key>'
 # 						export XFE_API_PASSWORD='<your password>'
+#
 
 
 import os
@@ -34,4 +35,5 @@ def search(text): # returns json
 
 if __name__ == "__main__":
   json_obj = search('airwatch')
+  json_obj = search('blue coat reporter')
   print json.dumps(json_obj, indent = 4, sort_keys = True)
