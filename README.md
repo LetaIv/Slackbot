@@ -1,20 +1,19 @@
 # Slackbot + X-Force addon and API in Python
-Prerequisities:
+<b>Prerequisities:</b>
 
 You need a registration at https://exchange.xforce.ibmcloud.com/.
 
 You need to own an app at https://api.slack.com/ .
 
+<b>Authentication:</b>
 
-Authentication:
-
-export SLACK_BOT_TOKEN='add app's token here from Slackbot'
+<i>export SLACK_BOT_TOKEN='add app's token here from Slackbot'
 
 export XFE_API_KEY='add key from X-Force API'
 
-export XFE_API_PASSWORD='add password from X-Force API'
+export XFE_API_PASSWORD='add password from X-Force API'</i>
 
 
-Usage: python slackbot.py
+<b>Usage:</b> <i>python slackbot.py</i>
 
 Slackbot starts with X-Force addon that provides information on vulnerabilities from the IBM X-Force Exchange website.
