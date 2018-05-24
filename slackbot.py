@@ -78,7 +78,7 @@ def do_event_joinchannel(channel): # run event when bot joins a new channel
 if __name__ == '__main__':
   if slack_client.rtm_connect(with_team_state = False):
     while True: # keep reconnecting
-      #try:
+      try:
         starterbot_id = slack_client.api_call('auth.test')['user_id'] # read bot's user id by calling web api method 'auth.test'
         print '{} Slackbot connected and running.'.format(log_time())
         while True:            
@@ -89,9 +89,9 @@ if __name__ == '__main__':
           elif msg_type == 'message': 
             if command: do_event_message(channel, command)
           time.sleep(RTM_READ_DELAY)
-     # except:
-     #   print '{} Lost connection to Slack, reconnecting in 10 seconds.'.format(log_time())
-     #   time.sleep(10)
-     #   if slack_client.rtm_connect(with_team_state = False): pass
+      except:
+        print '{} Lost connection to Slack, reconnecting in 10 seconds.'.format(log_time())
+        time.sleep(10)
+        if slack_client.rtm_connect(with_team_state = False): pass
   else:
     print '{} Error connecting to Slack.'.format(log_time())
