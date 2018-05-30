@@ -17,3 +17,6 @@ export XFE_API_PASSWORD='add password from X-Force API'</i>
 <b>Usage:</b> <i>python slackbot.py</i>
 
 Slackbot starts with X-Force addon that provides information on vulnerabilities from the IBM X-Force Exchange website.
+
+
+![Slackbot Diagram](https://raw.githubusercontent.com/LetaIv/Slackbot/master/slackbot.png)
