@@ -100,7 +100,7 @@ def command_run(channel, arg): # runs report now
           response += '\n'                    
   if not response: return 'No news.'
   else: 
-    command_save(channel):
+    command_save(channel)
     return response
 
 def command_save(channel):
