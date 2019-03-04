@@ -27,5 +27,6 @@ Slackbot starts with X-Force addon that provides information on vulnerabilities 
 <b>TODO:</b> If you want to publish an App in Slack, your code need to support OAuth for authentication. To do that, your code need to include a web server (i.e. Flask). At this time, I did not implement but more info can be found here: https://github.com/slackapi/python-slackclient/blob/master/docs-src/auth.rst
 
 
-<b>Logic:</b>
+<b>Diagram:</b>
+<br>
 ![Slackbot Diagram](https://raw.githubusercontent.com/LetaIv/Slackbot/master/slackbot_diagram.PNG)
