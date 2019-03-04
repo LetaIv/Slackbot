@@ -28,4 +28,4 @@ Slackbot starts with X-Force addon that provides information on vulnerabilities 
 
 
 <b>Logic:</b>
-![Slackbot Diagram](https://raw.githubusercontent.com/LetaIv/Slackbot/master/slackbot.png)
+![Slackbot Diagram](https://raw.githubusercontent.com/LetaIv/Slackbot/master/slackbot_diagram.PNG)
